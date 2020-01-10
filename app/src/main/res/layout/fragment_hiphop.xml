@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/linearLayout"
+    android:background="#212121"
+    android:weightSum="3">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.70"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:weightSum="3">
+
+
+        <Button
+            android:id="@+id/kick"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@color/selector_pad_button_kick"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="1"/>
+
+
+        <Button
+            android:id="@+id/DrumDelayC"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:background="@color/selector_pad_button_kick"
+            android:layout_weight="1"/>
+
+
+        <Button
+            android:id="@+id/clap"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="8dp"
+            android:background="@color/selector_pad_button_instrument"
+            android:layout_weight="1"/>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.71"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="10dp"
+        android:weightSum="3">
+
+
+        <Button
+            android:id="@+id/soundBass"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@color/selector_pad_button_instrument"
+
+            android:layout_weight="1"/>
+
+
+
+        <Button
+            android:id="@+id/soundDrumPadA"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:background="@color/selector_pad_button_kick"
+            android:layout_weight="1"/>
+
+
+        <Button
+            android:id="@+id/soundDrumPadB"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:background="@color/selector_pad_button_piano"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.71"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="10dp"
+        android:weightSum="3">
+
+
+        <Button
+            android:id="@+id/soundDrumPadC"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@color/selector_pad_button_piano"
+
+            android:layout_weight="1"/>
+
+
+        <Button
+            android:id="@+id/DrumDelayA"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:background="@color/selector_pad_button_guitare"
+            android:layout_weight="1"/>
+
+
+
+        <Button
+            android:id="@+id/soundDrumPadD"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="8dp"
+            android:background="@color/selector_pad_button_piano"
+            android:layout_weight="1"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.71"
+        android:layout_marginLeft="8dp"
+        android:weightSum="3">
+
+
+        <Button
+            android:id="@+id/DrumDelayB"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@color/selector_pad_button_guitare"
+
+            android:layout_weight="1"/>
+
+
+
+        <Button
+            android:id="@+id/soundDrumPadE"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:background="@color/selector_pad_button_kick"
+            android:layout_weight="1"/>
+
+
+
+        <Button
+            android:id="@+id/soundDrumPadF"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="8dp"
+            android:background="@color/selector_pad_button_piano"
+            android:layout_weight="1"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
